@@ -3,17 +3,17 @@ using Microsoft.AspNetCore.Mvc;
 namespace EcoImpacto.API.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
-    public class WeatherForecastController : ControllerBase
+    [Route("api/[controller]")]
+    public class CalculatorController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
         {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+            "Teste1", "Teste2", "Teste3", "Teste4", "Teste5", "Teste6", "Teste7", "Teste8", "Teste9", "Teste10"
         };
 
-        private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ILogger<CalculatorController> _logger;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public CalculatorController(ILogger<CalculatorController> logger)
         {
             _logger = logger;
         }

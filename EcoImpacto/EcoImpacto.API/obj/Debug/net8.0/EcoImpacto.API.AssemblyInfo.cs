@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EcoImpacto.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+715ba5b2ccefbed784d277ca463f110bb68fcaa2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0167d297a616fb07bb1994e1bfde96fbf7c73a89")]
 [assembly: System.Reflection.AssemblyProductAttribute("EcoImpacto.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EcoImpacto.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
