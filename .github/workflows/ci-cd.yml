@@ -22,7 +22,7 @@ jobs:
         dotnet-version: '6.0.x' # colocar nossa versão .net
 
     - name: Restore dependencies
-      run: dotnet restore .Back-end/EcoImpacto.sln
+      run: dotnet restore Back-end/EcoImpacto.sln
 
     - name: Build
       run: dotnet build --configuration Release --no-restore
