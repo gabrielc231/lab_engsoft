@@ -30,13 +30,13 @@ jobs:
           ${{ runner.os }}-nuget-
 
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore ./Back-end/EcoImpacto.sln
 
     - name: Build the project
-      run: dotnet build --configuration Release --no-restore
+      run: dotnet build ./Back-end/EcoImpacto.sln --configuration Release --no-restore
 
     - name: Run tests
-      run: dotnet test --no-build --verbosity normal --logger "trx;LogFileName=test_results.trx"
+      run: dotnet test ./Back-end/EcoImpacto.sln --no-build --verbosity normal --logger "trx;LogFileName=test_results.trx"
 
     - name: Upload test results
       if: always()
