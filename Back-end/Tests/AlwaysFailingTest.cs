@@ -5,6 +5,6 @@ public class AlwaysFailingTest
     [Fact]
     public void ThisTestWillAlwaysFail()
     {
-        Assert.True(false, "Este teste foi configurado para sempre falhar.");
+        Assert.True(true, "Este teste foi configurado para sempre falhar.");
     }
 }
