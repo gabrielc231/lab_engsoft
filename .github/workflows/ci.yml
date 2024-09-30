@@ -22,10 +22,10 @@ jobs:
         dotnet-version: '7.0.x'
 
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore Back-end/EcoImpacto.sln
 
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet build Back-end/EcoImpacto.sln --no-restore
 
     - name: Test
-      run: dotnet test --no-restore --verbosity normal
+      run: dotnet test Back-end/EcoImpacto.sln --no-restore --verbosity normal
