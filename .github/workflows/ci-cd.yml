@@ -19,7 +19,7 @@ jobs:
     - name: Set up .NET Core
       uses: actions/setup-dotnet@v3
       with:
-        dotnet-version: '7.x' # Use a versão correta do .NET que você está usando
+        dotnet-version: '7.x'
 
     - name: Restore dependencies
       run: dotnet restore Back-end/EcoImpacto.sln
@@ -28,4 +28,4 @@ jobs:
       run: dotnet build Back-end/EcoImpacto.sln --configuration Release --no-restore
 
     - name: Run tests
-      run: dotnet test Back-end/EcoImpacto.sln --no-restore --verbosity normal
+      run: dotnet run --project Back-end/backteste/BackTesteProject/BackTesteProject.csproj
