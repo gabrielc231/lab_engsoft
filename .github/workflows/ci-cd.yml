@@ -1,4 +1,4 @@
-name: EcoImpacto CI/CD
+name: .NET
 
 on:
   push:
@@ -11,57 +11,21 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    
-    steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
 
-    - name: Setup .NET
+    steps:
+    - name: Check out the repository
+      uses: actions/checkout@v2
+
+    - name: Set up .NET Core
       uses: actions/setup-dotnet@v3
       with:
-        dotnet-version: '8.0.x'
-
-    - name: Cache NuGet packages
-      uses: actions/cache@v3
-      with:
-        path: ~/.nuget/packages
-        key: ${{ runner.os }}-nuget-${{ hashFiles('**/*.csproj') }}
-        restore-keys: |
-          ${{ runner.os }}-nuget-
+        dotnet-version: '7.x' # Use a versão correta do .NET que você está usando
 
     - name: Restore dependencies
-      run: dotnet restore ./Back-end/EcoImpacto.sln
+      run: dotnet restore
 
-    - name: Build the project
-      run: dotnet build ./Back-end/EcoImpacto.sln --configuration Release --no-restore
+    - name: Build the solution
+      run: dotnet build --configuration Release --no-restore
 
     - name: Run tests
-      run: dotnet test ./Back-end/EcoImpacto.sln --no-build --verbosity normal --logger "trx;LogFileName=test_results.trx"
-
-    - name: Upload test results
-      if: always()
-      uses: actions/upload-artifact@v3
-      with:
-        name: test-results
-        path: '**/TestResults/*.trx'
-
-
-  deploy:
-    runs-on: ubuntu-latest
-    needs: build
-    if: github.ref == 'refs/heads/main' && success()
-
-    steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
-
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v3
-      with:
-        dotnet-version: '8.0.x'
-
-    - name: Deploy
-      run: |
-        echo "Starting deploy..."
-        # Comandos de deploy aqui
-        echo "Deploy completed successfully."
+      run: dotnet test --no-restore --verbosity normal
