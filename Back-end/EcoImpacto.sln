@@ -4,7 +4,7 @@ VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcoImpacto.API", "EcoImpacto.API\EcoImpacto.API.csproj", "{14966A46-4C5E-4C7B-86BF-CC572346FC0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcoImpacto.Tests", "EcoImpacto.Tests\EcoImpacto.Tests.csproj", "{NEW-GUID-HERE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcoImpacto.Tests", "Tests\EcoImpacto.Tests.csproj", "{NEW-GUID-HERE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
