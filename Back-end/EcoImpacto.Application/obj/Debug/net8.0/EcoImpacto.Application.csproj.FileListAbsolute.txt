@@ -1,0 +1,16 @@
+C:\Mackenzie\lab_engsoft\Back-end\EcoImpacto.Application\bin\Debug\net8.0\EcoImpacto.Application.deps.json
+C:\Mackenzie\lab_engsoft\Back-end\EcoImpacto.Application\bin\Debug\net8.0\EcoImpacto.Application.dll
+C:\Mackenzie\lab_engsoft\Back-end\EcoImpacto.Application\bin\Debug\net8.0\EcoImpacto.Application.pdb
+C:\Mackenzie\lab_engsoft\Back-end\EcoImpacto.Application\bin\Debug\net8.0\EcoImpacto.Communication.dll
+C:\Mackenzie\lab_engsoft\Back-end\EcoImpacto.Application\bin\Debug\net8.0\EcoImpacto.Communication.pdb
+C:\Mackenzie\lab_engsoft\Back-end\EcoImpacto.Application\obj\Debug\net8.0\EcoImpacto.Application.csproj.AssemblyReference.cache
+C:\Mackenzie\lab_engsoft\Back-end\EcoImpacto.Application\obj\Debug\net8.0\EcoImpacto.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mackenzie\lab_engsoft\Back-end\EcoImpacto.Application\obj\Debug\net8.0\EcoImpacto.Application.AssemblyInfoInputs.cache
+C:\Mackenzie\lab_engsoft\Back-end\EcoImpacto.Application\obj\Debug\net8.0\EcoImpacto.Application.AssemblyInfo.cs
+C:\Mackenzie\lab_engsoft\Back-end\EcoImpacto.Application\obj\Debug\net8.0\EcoImpacto.Application.csproj.CoreCompileInputs.cache
+C:\Mackenzie\lab_engsoft\Back-end\EcoImpacto.Application\obj\Debug\net8.0\EcoImpacto.Application.sourcelink.json
+C:\Mackenzie\lab_engsoft\Back-end\EcoImpacto.Application\obj\Debug\net8.0\EcoImpac.1EDB93E3.Up2Date
+C:\Mackenzie\lab_engsoft\Back-end\EcoImpacto.Application\obj\Debug\net8.0\EcoImpacto.Application.dll
+C:\Mackenzie\lab_engsoft\Back-end\EcoImpacto.Application\obj\Debug\net8.0\refint\EcoImpacto.Application.dll
+C:\Mackenzie\lab_engsoft\Back-end\EcoImpacto.Application\obj\Debug\net8.0\EcoImpacto.Application.pdb
+C:\Mackenzie\lab_engsoft\Back-end\EcoImpacto.Application\obj\Debug\net8.0\ref\EcoImpacto.Application.dll
