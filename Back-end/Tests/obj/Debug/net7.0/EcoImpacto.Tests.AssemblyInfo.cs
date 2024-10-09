@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EcoImpacto.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+519d9cbf1540cabc9c3c86d4037b89cf7f369c8a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9261c11afb39f99cf732aea9e040c1b135527ac8")]
 [assembly: System.Reflection.AssemblyProductAttribute("EcoImpacto.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EcoImpacto.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

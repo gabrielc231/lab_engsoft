@@ -1,8 +1,9 @@
-using Xunit; 
 using EcoImpacto.Application.UseCases.Calculator;
 using EcoImpacto.Communication.Requests;
 using EcoImpacto.Communication.Responses;
+using Xunit; 
 
+namespace EcoImpacto.Tests;
 public class RegisterCalculatorDataUseCaseTests
 {
     [Fact] 
@@ -10,14 +11,14 @@ public class RegisterCalculatorDataUseCaseTests
     {
         
         var useCase = new RegisterCalculatorDataUseCase();
-        
+
         var request = new RequestCalculatorResultJson
         {
-            ConsumoEnergiaKWh = 100,   
-            ConsumoGasM3 = 50,         
-            ConsumoCombustivelLitros = 20,  
-            TransportePublicoKm = 10,  
-            PraticasReciclagem = 5   
+            ConsumoEnergiaKWh = 100,
+            ConsumoGasM3 = 50,
+            ConsumoCombustivelLitros = 20,
+            TransportePublicoKm = 10,
+            PraticasReciclagem = 5,   
         };
 
       

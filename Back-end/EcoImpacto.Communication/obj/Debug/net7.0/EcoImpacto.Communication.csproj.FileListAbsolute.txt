@@ -1,0 +1,12 @@
+C:\Mackenzie\lab_engsoft\Back-end\EcoImpacto.Communication\bin\Debug\net7.0\EcoImpacto.Communication.deps.json
+C:\Mackenzie\lab_engsoft\Back-end\EcoImpacto.Communication\bin\Debug\net7.0\EcoImpacto.Communication.dll
+C:\Mackenzie\lab_engsoft\Back-end\EcoImpacto.Communication\bin\Debug\net7.0\EcoImpacto.Communication.pdb
+C:\Mackenzie\lab_engsoft\Back-end\EcoImpacto.Communication\obj\Debug\net7.0\EcoImpacto.Communication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mackenzie\lab_engsoft\Back-end\EcoImpacto.Communication\obj\Debug\net7.0\EcoImpacto.Communication.AssemblyInfoInputs.cache
+C:\Mackenzie\lab_engsoft\Back-end\EcoImpacto.Communication\obj\Debug\net7.0\EcoImpacto.Communication.AssemblyInfo.cs
+C:\Mackenzie\lab_engsoft\Back-end\EcoImpacto.Communication\obj\Debug\net7.0\EcoImpacto.Communication.csproj.CoreCompileInputs.cache
+C:\Mackenzie\lab_engsoft\Back-end\EcoImpacto.Communication\obj\Debug\net7.0\EcoImpacto.Communication.sourcelink.json
+C:\Mackenzie\lab_engsoft\Back-end\EcoImpacto.Communication\obj\Debug\net7.0\EcoImpacto.Communication.dll
+C:\Mackenzie\lab_engsoft\Back-end\EcoImpacto.Communication\obj\Debug\net7.0\refint\EcoImpacto.Communication.dll
+C:\Mackenzie\lab_engsoft\Back-end\EcoImpacto.Communication\obj\Debug\net7.0\EcoImpacto.Communication.pdb
+C:\Mackenzie\lab_engsoft\Back-end\EcoImpacto.Communication\obj\Debug\net7.0\ref\EcoImpacto.Communication.dll

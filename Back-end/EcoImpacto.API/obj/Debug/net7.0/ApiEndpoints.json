@@ -1,0 +1,37 @@
+[
+  {
+    "ContainingType": "EcoImpacto.API.Controllers.CalculatorController",
+    "Method": "Calculator",
+    "RelativePath": "api/Calculator",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "EcoImpacto.Communication.Requests.RequestCalculatorResultJson",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EcoImpacto.Communication.Responses.ResponseCalculatorResultJson",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ]
+  }
+]
