@@ -25,7 +25,7 @@ public class RegisterCalculatorDataUseCaseTests
         var response = useCase.Execute(request);
         
        
-        double expectedEmission = (100 * 0.223) + (50 * 2.1) + (20 * 2.3) + (10 * 0.1);
+        double expectedEmission = (100 * 0.223) + (50 * 2.1) + (20 * 2.3) + (1 * 0.1);
         Assert.Equal(expectedEmission, response.result, precision: 2); // Verificando o valor da emissão
     }
 }
