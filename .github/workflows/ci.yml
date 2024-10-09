@@ -16,11 +16,6 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Setup .NET 8.0
-      uses: actions/setup-dotnet@v2
-      with:
-        dotnet-version: '8.0.x'
-
     - name: Setup .NET 7.0
       uses: actions/setup-dotnet@v2
       with:
