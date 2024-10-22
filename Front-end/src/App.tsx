@@ -1,9 +1,12 @@
-import './App.css'
+import AppRouter from "./routes/AppRouter"
+import Providers from "./shared/Providers"
 
 function App() {
   return (
     <>
-      <h1>EcoImpacto</h1>
+      <Providers>
+        <AppRouter />
+      </Providers>
     </>
   )
 }
