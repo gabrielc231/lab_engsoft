@@ -13,7 +13,7 @@ pipeline {
         stage('Build Docker Image') {
             steps {
                 echo 'Building Docker image...'
-                sh 'docker build -t minha-aplicacao:v1 .'
+                sh 'docker build -t gabrielc231/engsoftware_frontend/latest .'
             }
         }
 
@@ -22,7 +22,7 @@ pipeline {
                 echo 'Running Docker container...'
                 sh 'docker stop minha-aplicacao || true'
                 sh 'docker rm minha-aplicacao || true'
-                sh 'docker run -d -p 5173:5173 --name minha-aplicacao minha-aplicacao:v1'
+                sh 'docker run -d -p 5173:5173 --name  gabrielc231/engsoftware_frontend/latest'
             }
         }
     }
