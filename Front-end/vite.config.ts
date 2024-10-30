@@ -4,7 +4,7 @@ import path from 'path'
 
 export default defineConfig({
 // should be repository name
-base: "gabrielc231/",  
+base: "/gabrielc231",  
 plugins: [react()],
   resolve: {
     alias: {
