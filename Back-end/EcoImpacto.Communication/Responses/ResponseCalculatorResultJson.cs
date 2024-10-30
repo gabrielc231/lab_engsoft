@@ -1,7 +1,6 @@
-﻿
-namespace EcoImpacto.Communication.Responses;
+﻿namespace EcoImpacto.Communication.Responses;
 public class ResponseCalculatorResultJson
 {
-   public double result { get; set; }
-   public int recyclingN { get; set; }
+    public double result { get; set; }
+    public string worstSector { get; set; }
 }
