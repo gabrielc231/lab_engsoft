@@ -8,7 +8,7 @@ import { About } from '@/screens/about/About';
 export const AppRouter = () => {
     return (
         <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/gabrielc231" element={<Home />} />
             <Route path="/calculadora" element={<Calculator />} />
             <Route path="/resultados" element={<Results />} />
             <Route path="/ranking" element={<Ranking />} />
