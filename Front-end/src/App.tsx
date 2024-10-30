@@ -1,5 +1,5 @@
-import AppRouter from "./routes/AppRouter"
-import Providers from "./shared/Providers"
+import { AppRouter } from "./routes/AppRouter"
+import { Providers } from "./shared/Providers"
 
 function App() {
   return (
@@ -11,4 +11,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
