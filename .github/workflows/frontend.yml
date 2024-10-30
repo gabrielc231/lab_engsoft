@@ -27,9 +27,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./Front-end
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -40,8 +37,10 @@ jobs:
           node-version: 20
           cache: 'npm'
       - name: Install dependencies
+        working-directory: ./Front-end
         run: npm ci
       - name: Build
+        working-directory: ./Front-end
         run: npm run build
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -49,7 +48,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload dist folder
-          path: './Front-end/dist'
+          path: '.Front-end/dist'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
