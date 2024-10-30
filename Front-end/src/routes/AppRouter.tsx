@@ -1,11 +1,11 @@
 import { Route, Routes } from 'react-router-dom';
-import Home from '@/screens/home/Home';
-import Calculator from '@/screens/calculator/Calculator';
-import Results from '@/screens/results/Results';
-import Ranking from '@/screens/ranking/Ranking';
-import About from '@/screens/about/About';
+import { Home } from '@/screens/home/Home';
+import { Calculator } from '@/screens/calculator/Calculator';
+import { Results } from '@/screens/results/Results';
+import { Ranking } from '@/screens/ranking/Ranking';
+import { About } from '@/screens/about/About';
 
-const AppRouter = () => {
+export const AppRouter = () => {
     return (
         <Routes>
             <Route path="/" element={<Home />} />
@@ -16,5 +16,3 @@ const AppRouter = () => {
         </Routes>
     );
 };
-
-export default AppRouter;
