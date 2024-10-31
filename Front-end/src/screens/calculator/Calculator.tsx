@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const Calculator = () => {
+export const Calculator = () => {
     const [electricity, setElectricity] = useState('');
     const [gas, setGas] = useState('');
     const [fuel, setFuel] = useState('');
@@ -81,5 +81,3 @@ const Calculator = () => {
         </div>
     );
 };
-
-export default Calculator;
