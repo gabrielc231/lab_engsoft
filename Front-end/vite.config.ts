@@ -4,7 +4,7 @@ import path from 'path'
 
 export default defineConfig({
 // should be repository name
-base: "/lab_engsoft",  
+base: "",  
 plugins: [react()],
   resolve: {
     alias: {
