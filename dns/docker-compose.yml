@@ -1,0 +1,16 @@
+---
+services:
+  duckdns:
+    image: lscr.io/linuxserver/duckdns:latest
+    container_name: duckdns
+    network_mode: host #optional
+    environment:
+      - PUID=1000 #optional
+      - PGID=1000 #optional
+      - TZ=Etc/UTC #optional
+      - SUBDOMAINS=ecoimpacta.duckdns.org
+      - TOKEN=9281dd8f-eb20-498e-8e1d-8868260c256e
+      - LOG_FILE=false #optional
+    volumes:
+      - /path/to/duckdns/config:/config #optional
+    restart: unless-stopped
